@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url(picture.png);
+    background-size: cover;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+}
+header h1{
+    color: black;
+    font-size: 2.3rem;
+    font-weight: 800;
+    padding-left: 15px;
+    padding-top: 15px;
+
+}
+header .div{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    list-style: none;
+    padding-left: 200px;
+}
+header .div a{
+    color: rgb(3, 3, 91);
+    font-size: 1.75rem;
+    text-decoration: none;
+    margin: 24px;
+    font-weight: 700;
+}
+header .one{
+    height: 40px;
+    width: 130px;
+    background-color: rgb(2, 55, 7);
+    margin: 0px 20px 0px 20px;
+    color: white;
+    font-size: 24px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+header .two{
+    height: 40px;
+    width: 130px;
+    background-color: rgb(2,55,7);
+    margin: 0px 20px 0px 20px;
+    color: white;
+    font-size: 24px;
+    border-radius: 30px;
+    border: 1.5px solid black;
+    cursor: pointer;
+}
+.content{
+    height: 500px;
+    width: 800px;
+    color: rgb(11, 130, 194);
+    padding: 5px;
+    
+}
+.content h2{
+   font-size: 3rem;  
+   text-transform: capitalize;
+
+}
+
+.content h1{
+    font-size: 4rem;
+    text-transform: capitalize;
+}
+.content p{
+    padding-top: 40px;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: rgb(24, 12, 163);
+    font-weight: 700;
+}
+.content button{
+    height: 60px;
+    width: 130px;
+    background-color: rgb(5, 5, 71);
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+}
